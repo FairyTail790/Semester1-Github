@@ -21,6 +21,31 @@ p {
   margin: 0;
   padding: 0; }
 
+.Foot {
+  display: flex; }
+
+.Foot p {
+  color: #8b8b8b; }
+
+Footer {
+  padding-top: 90%;
+  padding-left: 5%;
+  display: flex;
+  padding-bottom: 2%;
+  text-align: center; }
+
+Footer a {
+  color: black; }
+
+Footer a {
+  text-decoration: none; }
+
+.Link {
+  margin-left: 198px; }
+
+.Home {
+  margin-left: 30px; }
+
 img {
   display: block;
   max-width: 100%;
