@@ -1,0 +1,60 @@
+<!doctype html>
+<!-- Fortæller det er html5 -->
+<!-- html starter og slutter hele dokumentet / lang=da: Fortæller siden er på dansk -->
+<html lang="da">
+
+<!-- I <head> har man opsætning - alt det som man ikke ser som selve indholdet -->
+<head>
+
+    <!-- Sætter tegnsætning til utf-8 som bl.a. tillader danske bogstaver -->
+    <meta charset="utf-8">
+
+    <!-- Titel som ses oppe i browserens tab mv. -->
+    <title>Sigende titel</title>
+
+    <!-- Metatags der fortæller at søgemaskiner er velkomne, hvem der udgiver siden og copyright information -->
+    <meta name="robots" content="All">
+    <meta name="author" content="Udgiver">
+    <meta name="copyright" content="Information om copyright">
+
+    <!-- Sikrer man kan benytte CSS ved at tilkoble en CSS fil -->
+    <link rel="stylesheet" href="CSS/Styles.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
+
+    <!-- Sikrer den vises korrekt på mobil, tablet mv. ved at tage ift. skærmstørrelse -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<!-- i <body> har man alt indhold på siden -->
+<body>
+<div class="wrapper">
+    <!-- Martin kode start-->
+    <div class="header">
+        <div class="top">
+            <div class="logo">
+                <div class="logo_image">
+                    <img src="Images/travelly-free_logo.png">
+                </div>
+
+                <div class="logo_tekst">travelly</div>
+            </div>
+            <div class="menu">&#9776;</div>
+        </div>
+        <div class="search_box">
+            <div class="search_tagline">
+                <p>Where will you go next?</p>
+            </div>
+            <div class="search_field">
+                <form>
+                    <input type="text" id="field" value="Start typing...">
+                    <input type="button" id="button" value="GO">
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- Martin kode slut -->
+</div>
+</body>
+</html>

@@ -51,4 +51,75 @@ img {
   max-width: 100%;
   height: auto; }
 
+.wrapper {
+  width: 100%; }
+
+.header {
+  width: 1200px;
+  height: 600px;
+  padding-top: 30px;
+  padding-left: 100px;
+  background-image: url("../Images/travelly-free.png");
+  margin-left: auto;
+  margin-right: auto; }
+
+.top {
+  display: flex; }
+
+.logo {
+  height: 23px;
+  display: flex;
+  font-family: 'Open Sans light', sans-serif; }
+
+.logo_image {
+  margin-top: auto;
+  margin-bottom: auto; }
+
+.logo_tekst {
+  font-size: 23px;
+  color: white;
+  margin-left: 13px;
+  text-align: center;
+  margin-top: -6px; }
+
+.menu {
+  height: 23px;
+  font-size: 23px;
+  color: white;
+  text-align: center;
+  margin-left: auto;
+  margin-right: 100px; }
+
+.search_box {
+  width: 100%;
+  margin-top: 225px;
+  margin-left: 200px;
+  font-family: 'Open Sans light', sans-serif; }
+
+.search_tagline {
+  font-size: 52px;
+  color: white;
+  margin-left: auto;
+  margin-right: auto; }
+
+.search_field {
+  margin-top: 40px;
+  margin-left: 60px; }
+
+#field {
+  height: 40px;
+  width: 310px;
+  padding-left: 15px;
+  border: none;
+  color: #cecece; }
+
+#button {
+  height: 40px;
+  width: 120px;
+  margin: 0;
+  margin-left: -4px;
+  border: none;
+  background-color: #fd4f32;
+  color: white; }
+
 /*# sourceMappingURL=Styles.css.map */
